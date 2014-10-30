@@ -1,34 +1,9 @@
-{% load staticfiles %}
+{% load static %}
 <!DOCYTPE html>
 <html lang = "en">
 <head>
 	<title>{% block title %} My Base Template{% endblock %}</title>
 	<link rel="stylesheet" type = "text/css" href = "{% static "assets/css/default.css" %}">
-<!--	
-	<style  type = "text/css">
-		body{
-			text-align: center;
-		}
-		#page {
-			width: 1100px;
-			text-align: left;
-			margin: 10px auto 20px auto;
-			background-color: #bcbcbc;
-		}
-		
-		#sidebar{
-			float: left;
-			width 200px;
-			border: 1px solid #000;
-		}
-		#content {
-			float:left;
-			width: 600px;
-			border: 1px solid #f00;
-			padding: 10px;
-		}
-	</style>
--->
 </head>
 
 <body>
@@ -43,9 +18,7 @@
 	</div>
 	<div id = "content">
 		{% block content %}this is a content area{%endblock %}
-		<img src = "{% static 'img/python_logo.jpg' %}" /> 
-<!--		<img src = "{% static "assets/images/python-logo.jpg" %}" />
--->
+		<img src = "{% static 'assets/img/python-logo.jpg' %}" width = "200"/> 
 	</div>
 	</div>
 </body>
