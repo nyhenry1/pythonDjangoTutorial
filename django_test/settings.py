@@ -79,14 +79,14 @@ USE_TZ = True
 STATIC_URL = '/static/'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
-STATIC_ROOT = os.path.join(BASE_DIR, 'static', 'static_root')
+STATIC_ROOT = ''; 
 
 STATICFILES_DIRS = (
-	os.path.join(BASE_DIR, 'static','static_dirs'),
+	('assets', '/home/xiao/Workspace/testEnvWrapper/django-xiao/django_test/static'),
 )
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'static', 'media')
-MEDIA_URL = '/media/'
+#MEDIA_ROOT = os.path.join(BASE_DIR, 'static', 'media')
+#MEDIA_URL = '/media/'
 
 TEMPLATE_DIRS=(
 	"/home/xiao/Workspace/testEnvWrapper/django-xiao/django_test/templates",
