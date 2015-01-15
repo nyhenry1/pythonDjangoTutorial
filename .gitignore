@@ -1,1 +1,3 @@
 */*.pyc
+article/*.pyc
+django_test/*.pyc

@@ -82,13 +82,13 @@ STATIC_URL = '/static/'
 STATIC_ROOT = ''; 
 
 STATICFILES_DIRS = (
-	('assets', '/home/xiao/Workspace/testEnvWrapper/django-xiao/django_test/static'),
+	('assets', '/home/xiao/Workspace/virWrapProject/djangoTutorial/pythonDjangoTutorial/static'),
 )
 
 #MEDIA_ROOT = os.path.join(BASE_DIR, 'static', 'media')
 #MEDIA_URL = '/media/'
 
 TEMPLATE_DIRS=(
-	"/home/xiao/Workspace/testEnvWrapper/django-xiao/django_test/templates",
-	"/home/xiao/Workspace/testEnvWrapper/django-xiao/django_test/articles/templates",
+	"/home/xiao/Workspace/virWrapProject/djangoTutorial/pythonDjangoTutorial/templates",
+	"/home/xiao/Workspace/virWrapProject/djangoTutorial/pythonDjangoTutorial/articles/templates",
 )
